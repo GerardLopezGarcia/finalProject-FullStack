@@ -4,7 +4,8 @@ export const useUsersStore = defineStore('users', {
   state: () => ({
     users: [],
     logedUser: {},
-    message:false
+    message:false,
+    supabaseData: []
   }),
   actions: {
     async fetchAllUsers() {
@@ -42,6 +43,18 @@ export const useUsersStore = defineStore('users', {
         }
       }
 
+    },
+    async fetchUsersSupabase(){
+      //fetch con supabase ---------
+      const response = await fetch('https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/user?select=*',{
+        method: 'GET',
+        headers: {
+          'apikey':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2b21zZmlueXhmcm1jc2N4eW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzMzMzk2NTAsImV4cCI6MTk4ODkxNTY1MH0.Bw1RQX8h386Yldtyc2YPL9WlZN9X68nIKU-jpDrr0VU',
+          'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2b21zZmlueXhmcm1jc2N4eW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzMzMzk2NTAsImV4cCI6MTk4ODkxNTY1MH0.Bw1RQX8h386Yldtyc2YPL9WlZN9X68nIKU-jpDrr0VU'
+        }
+      })
+      const data = await response.json()
+      this.supabaseData = await data
     }
   }
 })

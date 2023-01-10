@@ -2,6 +2,7 @@ import { createRouter,createWebHistory} from "vue-router"
 import HomeView from "../views/HomeView.vue"
 import Profile from "../views/Profile.vue"
 import CardInfo from "../views/CardInfo.vue"
+import Hosts from "../views/Hosts.vue"
 
 const routes = [
     {
@@ -18,6 +19,11 @@ const routes = [
         path:'/housecard/:id',
         name:'housecard',
         component:CardInfo
+    },
+    {
+        path:'/hosts',
+        name:'hosts',
+        component:Hosts
     }
 ]
 
