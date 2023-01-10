@@ -57,6 +57,7 @@ POST
 'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/house'   | POST '/house'
 
 DELETE
+
 'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/house?some_column=eq.someValue'  | DELETE '/house/{id}
 
 ![image](https://user-images.githubusercontent.com/72072309/211518416-0c82b923-f875-4c64-81e1-163b1abf6b15.png)
