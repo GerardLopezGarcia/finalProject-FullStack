@@ -40,28 +40,31 @@ Rutas disponibles para postman
 Proyecto desplegado en los servidores de *Supabase*
 Para acceder hay que añadir en los headers:
 
->  apikey = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhsdHVjc2pya2FsZHloemhkYnVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzAzMzQ2MzUsImV4cCI6MTk4NTkxMDYzNX0.bjkp1lmwxzmf4C7Ke1i_Zt0Ha3JOgxyNHw8VK39tP4Q
+>  apikey = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2b21zZmlueXhmcm1jc2N4eW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzMzMzk2NTAsImV4cCI6MTk4ODkxNTY1MH0.Bw1RQX8h386Yldtyc2YPL9WlZN9X68nIKU-jpDrr0VU
 
-> Authorization = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhsdHVjc2pya2FsZHloemhkYnVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzAzMzQ2MzUsImV4cCI6MTk4NTkxMDYzNX0.bjkp1lmwxzmf4C7Ke1i_Zt0Ha3JOgxyNHw8VK39tP4Q
+> Authorization = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2b21zZmlueXhmcm1jc2N4eW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzMzMzk2NTAsImV4cCI6MTk4ODkxNTY1MH0.Bw1RQX8h386Yldtyc2YPL9WlZN9X68nIKU-jpDrr0VU
 
 Y podremos acceder a toda la base de datos , se añade como ejemplo las siguientes rutas:
 
 GET
 
-https://xltucsjrkaldyhzhdbup.supabase.co/rest/v1/account?select=*
-https://xltucsjrkaldyhzhdbup.supabase.co/rest/v1/checking?select=minimum_balance,id,status
-https://xltucsjrkaldyhzhdbup.supabase.co/rest/v1/user?select=*
+'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/house?select=*'   | GET '/houses'
+'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/user?select=*'    | GET '/users'
+'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/user?select=name' | GET '/users/{name}'
 
 POST
 
-https://xltucsjrkaldyhzhdbup.supabase.co/rest/v1/user
+'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/house'   | POST '/house'
 
 DELETE
 
-https://xltucsjrkaldyhzhdbup.supabase.co/rest/v1/user?password=eq.supabase
+'https://gvomsfinyxfrmcscxynd.supabase.co/rest/v1/house?some_column=eq.someValue'  | DELETE '/house/{id}
+
+![image](https://user-images.githubusercontent.com/72072309/211518416-0c82b923-f875-4c64-81e1-163b1abf6b15.png)
+
 
 Usuarios
-Listado de contraseñas y cuentas para acceder 
+Listado de contraseñas y cuentas para acceder una vez dentro de la web
 
 | Usuario  | Contraseña | 
 | ------------- | ------------- | 
