@@ -35,6 +35,8 @@ Rutas disponibles para postman
 | -  | "/guestusers/{name}" | PATCH  |
 | -  | "/houses" | GET  | 
 
+Para ver las rutas disponbles con el microservicio acceder a la carpeta /finalProject-Microservicio
+
 ## Bonus
 
 Proyecto desplegado en los servidores de *Supabase*
