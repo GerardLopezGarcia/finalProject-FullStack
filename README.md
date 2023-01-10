@@ -64,7 +64,7 @@ DELETE
 
 
 Usuarios
-Listado de contraseñas y cuentas para acceder 
+Listado de contraseñas y cuentas para acceder una vez dentro de la web
 
 | Usuario  | Contraseña | 
 | ------------- | ------------- | 
