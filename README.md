@@ -77,9 +77,11 @@ Listado de contraseñas y cuentas para acceder una vez dentro de la web
 | reciencasados  | ironhack  | 
 
 DarkMode 🌝🌚
+
 Al hacer click en  este icono cambiaremos los estilos CSS para activar el tema oscuro de la web
 
 Become a host
+
 Al hacer click en este enlace se nos abrirá una nueva vista con la información de la base de datos de Supabase donde podremos ver los perfiles de los usuarios registrados
 
 ## Setup
