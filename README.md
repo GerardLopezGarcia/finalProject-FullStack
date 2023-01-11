@@ -80,15 +80,21 @@ Listado de contraseñas y cuentas para acceder una vez dentro de la web
 
 Animaciones con gsap 🚀
 
-Se han añadido animaciones a la página para conseguir 
+Se han añadido animaciones a la página para dar dinamismo y mejorar la experiencia del usuario
 
 DarkMode 🌝🌚
 
 Al hacer click en  este icono cambiaremos los estilos CSS para activar el tema oscuro de la web
 
+Vistas extras
+
 Become a host 🏡
 
 Al hacer click en este enlace se nos abrirá una nueva vista con la información de la base de datos de Supabase donde podremos ver los perfiles de los usuarios registrados
+
+HouseCard 🏡
+
+Al hacer click en cualquier casa accederemos a la vista de HouseCard donde se nos mostrará toda la información sobre los inmuebles junto con imágenes extras.
 
 ## Setup
 
