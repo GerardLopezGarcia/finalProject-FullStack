@@ -76,6 +76,12 @@ Listado de contraseñas y cuentas para acceder una vez dentro de la web
 | estudianteindeciso  | ironhack4 | 
 | reciencasados  | ironhack  | 
 
+## Bonus
+
+Animaciones con gsap 🚀
+
+Se han añadido animaciones a la página para conseguir 
+
 DarkMode 🌝🌚
 
 Al hacer click en  este icono cambiaremos los estilos CSS para activar el tema oscuro de la web
